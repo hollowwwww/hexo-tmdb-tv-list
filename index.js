@@ -111,11 +111,11 @@ async function getTMDBData(listId, api, dir) {
 
       let item_data = {};
       item_data.id = tv.id;
-      item_data.title = tv.title;
-      item_data.date = tv.release_date;
+      item_data.name = tv.name;
+      item_data.date = tv.first_air_date;
       item_data.poster = tv.poster_path;
       item_data.bg = tv.backdrop_path;
-      item_data.origin_title = tv.original_title;
+      item_data.original_name = tv.original_name;
       item_data.homepage = tv.homepage;
       item_data.genres = tv.genres;
       item_data.vote_average = tv.vote_average;   // 先保留数字，用于排序
