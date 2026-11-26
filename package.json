@@ -1,5 +1,5 @@
 {
-  "name": "hexo-tmdb-list",
+  "name": "hexo-tmdb-tv-list",
   "version": "1.1.1",
   "description": "> 修改自 https://github.com/HCLonely/hexo-bilibili-bangumi",
   "main": "index.js",
@@ -17,10 +17,10 @@
   "keywords": [
     "hexo"
   ],
-  "author": "Haitao",
+  "author": "hollowwwww",
   "license": "Apache License 2.0",
   "repository": {
     "type": "git",
-    "url": "git://github.com/Wu-Haitao/hexo-tmdb-list.git"
+    "url": "git://github.com/hollowwwww/hexo-tmdb-tv-list.git"
   }
 }

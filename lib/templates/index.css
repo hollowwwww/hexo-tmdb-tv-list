@@ -8,7 +8,7 @@ header#page-header.full_page #site-info,
 header#page-header.full_page #scroll-down {
     display: none !important;
 }
-.tmdb-item {
+.tmdb-Tv-item {
     width: 100%;
     height: fit-content;
     border-radius: 10px;
@@ -16,7 +16,7 @@ header#page-header.full_page #scroll-down {
     margin: 10px 0 10px 0;
 }
 
-.item-container {
+.item-Tv-container {
     width: 100%;
     height: fit-content;
     padding: 20px;
@@ -29,25 +29,25 @@ header#page-header.full_page #scroll-down {
     border-radius: inherit;
 }
 
-.tmdb-title {
+.tmdb-Tv-title {
     font-size: xx-large;
 }
 
-.tmdb-title a {
+.tmdb-Tv-title a {
     color: #fff !important
 }
 
-.tmdb-title a:hover {
+.tmdb-Tv-title a:hover {
     color: #aaa !important
 }
 
 
-.tmdb-picture img {
+.tmdb-Tv-picture img {
     border-radius: 5px;
     box-shadow: 0 5px 10px black;
 }
 
-.tmdb-info {
+.tmdb-Tv-info {
     width: 50%;
     min-width: 200px;
     color: white;
@@ -55,42 +55,42 @@ header#page-header.full_page #scroll-down {
     text-shadow: 0 1px 5px black;
 }
 
-.tmdb-subtitle {
+.tmdb-Tv-subtitle {
     font-size: large;
 }
-.tmdb-vote {
+.tmdb-Tv-vote {
     font-size: medium;
 }
-.tmdb-genres {
+.tmdb-Tv-genres {
     font-size: small;
 }
-.tmdb-tagline {
+.tmdb-Tv-tagline {
     font-size: medium;
 }
-.tmdb-cast {
+.tmdb-Tv-cast {
     font-size: small;
 }
-.tmdb-pagination {
+.tmdb-Tv-pagination {
     margin-top: 15px;
     text-align: center;
     margin-bottom: 10px
 }
 
-.tmdb-button {
+.tmdb-Tv-button {
     border-radius: 5px;
     padding: 5px
 }
 
-.tmdb-button:hover {
+.tmdb-Tv-button:hover {
     background: #aaa;
     color: #fff !important
 }
 
-.tmdb-hide {
+.tmdb-Tv-hide {
     display: none
 }
 
-.tmdb-show {
+.tmdb-Tv-show {
     display: block
 }
 
