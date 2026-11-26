@@ -1,0 +1,96 @@
+header#page-header.full_page {
+    background-image: none !important;
+    height: 60px !important;
+    min-height: 0 !important;
+    padding: 0 !important;
+}
+header#page-header.full_page #site-info,
+header#page-header.full_page #scroll-down {
+    display: none !important;
+}
+.tmdb-item {
+    width: 100%;
+    height: fit-content;
+    border-radius: 10px;
+    background-size: cover;
+    margin: 10px 0 10px 0;
+}
+
+.item-container {
+    width: 100%;
+    height: fit-content;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-repeat: no-repeat;
+    border-radius: inherit;
+}
+
+.tmdb-title {
+    font-size: xx-large;
+}
+
+.tmdb-title a {
+    color: #fff !important
+}
+
+.tmdb-title a:hover {
+    color: #aaa !important
+}
+
+
+.tmdb-picture img {
+    border-radius: 5px;
+    box-shadow: 0 5px 10px black;
+}
+
+.tmdb-info {
+    width: 50%;
+    min-width: 200px;
+    color: white;
+    font-weight: bolder;
+    text-shadow: 0 1px 5px black;
+}
+
+.tmdb-subtitle {
+    font-size: large;
+}
+.tmdb-vote {
+    font-size: medium;
+}
+.tmdb-genres {
+    font-size: small;
+}
+.tmdb-tagline {
+    font-size: medium;
+}
+.tmdb-cast {
+    font-size: small;
+}
+.tmdb-pagination {
+    margin-top: 15px;
+    text-align: center;
+    margin-bottom: 10px
+}
+
+.tmdb-button {
+    border-radius: 5px;
+    padding: 5px
+}
+
+.tmdb-button:hover {
+    background: #aaa;
+    color: #fff !important
+}
+
+.tmdb-hide {
+    display: none
+}
+
+.tmdb-show {
+    display: block
+}
+
